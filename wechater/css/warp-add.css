@@ -1,0 +1,36 @@
+.warp-find{
+	background-color: #ebebeb;
+}
+.finds{
+	width: 100%;
+	background-color: white;
+	margin-top:0px ;
+	
+}
+.finds div:last-child{
+	border: 0px;
+}
+.find-content{
+	width: 95%;
+	height:45px ;
+	border-bottom:1px solid #BDBDBD ;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 0 auto;
+		
+}
+.find-left{
+	width: 35px;height: 35px;
+}
+.find-left img{
+	width: 100%;height: 100%;
+}
+.font3{
+	width:80%;
+	font-size: 95%;
+	height:45px;
+	margin-left: 15px;
+	line-height: 45px;
+}

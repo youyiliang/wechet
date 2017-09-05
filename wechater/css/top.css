@@ -1,0 +1,144 @@
+.top2-left{
+	width: 90px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+	color: whitesmoke;
+	font-size: 100%;
+}
+.top2-right{
+	width:80% ;
+	flex-flow:1;
+	flex-flow: row;
+	justify-content:flex-end;
+	display: flex;
+	align-items: center;
+		
+}
+
+	.search{
+		height: 100%;width:50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.search:active{
+		background-color: #9E9E9E;
+	}
+	.search img{
+		height:45% ;width: 45%;
+	}
+	.more img{
+		height:50% ;width: 45%;
+	}
+	.top1 div:first-child{
+		margin-left:8px ;
+		width: 80px;height: 100%;
+		font-size: 85%;
+	}
+	.top1-right{
+		display: flex;
+		flex-grow: 1;
+		align-items: center;
+		width: 90%;height: 100%;
+		justify-content: flex-end;
+		margin-right: 8px;
+	}
+	.top1-right div:nth-child(1){
+		width: 30px;
+		height: 80%;
+		font-size:80% ;
+		align-items: center;
+	}
+	.top1-right div:nth-child(2){
+		width: 30px;height:50% ;
+		border: 1px solid whitesmoke;
+		display: flex;
+		align-items: center;
+		
+	}
+	.top1-right div:nth-child(2) div{
+		width: 24px;height:80% ;
+		background-color: whitesmoke;
+		margin: 1px;
+		
+	}
+	.top1-right div:nth-child(3){
+		width:2px;height:40% ;
+		background-color: whitesmoke;
+		margin-right: 2px;
+	}
+	.signal{
+		height:80% ;width:40px;
+		display: flex;
+		flex-flow: row;
+		align-items: baseline;
+	}
+	.signal div:nth-child(1){
+		height: 20%;width:4px ;	
+	}
+	.signal div:nth-child(2){
+		height: 40%;width:4px ;
+	}
+	.signal div:nth-child(3){
+		height: 60%;width:4px ;
+	}
+	.signal div:nth-child(4){
+		height: 80%; width:4px;
+	}
+	.signal-1{
+		background-color: whitesmoke;
+		margin-left:2px;
+	}
+	.signal-2{
+		background-color:gray;
+		margin-left:2px ;
+		
+	}
+	.more{
+		height:100%;width:80px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+		
+	}
+	.more:active{
+		background-color:#9E9E9E;
+		
+	}
+	.more-mont{
+		width: 150px;
+		background-color:#212121;
+		display: flex;
+		flex-flow: column nowrap;
+		position: absolute;
+		bottom:-180px;right:0px ;
+		z-index: 10;
+		display: none;
+		 
+	}
+	.more-one{
+		height:35px ;width: 100%;
+		display: flex;
+		flex-flow: row;	
+		align-items: center;
+		justify-content: flex-start;
+		border-bottom:1px solid black ;
+	}
+	.more-one div:nth-child(2n-1){
+		width:30px;height: 30px;
+		margin-left:10px;
+		display: flex;
+		align-items: center;
+	}
+	.more-one div:nth-child(2n-1) img{
+		
+		width:25px;height: 25px;
+	}
+	.more-one div:nth-child(2n){
+		margin: 10px;
+		color:whitesmoke;	
+	}
+	

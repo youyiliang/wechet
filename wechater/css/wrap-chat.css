@@ -1,0 +1,60 @@
+.content{
+		padding:5px 5px 5px 10px ;
+		width: 100%;height:60px ;
+		/*background-color:red;*/
+		border-bottom: 1px solid #bdbdbd;
+		display: flex;
+		flex-flow: row nowrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+.warp-chat{
+	background-color: whitesmoke;
+}
+.con-left{
+	width:50px ;height: 50px;
+	position:relative ;
+	}
+.con-left img{
+	width: 48px;height: 48px;
+}
+.con-mid{
+	height:80% ;
+	flex-grow: 1;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-around;
+	align-content: center;
+	margin: 10px;
+}
+.con-name{
+	font-size:100% ;
+	color:#212121 ;
+}
+.con-text{
+	font-size:90% ;
+	color: #9E9E9E;
+	align-content: center;
+}
+.con-radio{
+	font-size:90% ;
+	color: darkorange;
+	align-content: center;
+}
+.con-right{
+	color: #BDBDBD;
+	font-size: 90%;
+	width: 70px;height: 100%;
+}
+.red{
+	width: 16px;height: 16px;
+	background-color: red;
+	color: whitesmoke;
+	border-radius: 50%;
+	position: absolute;
+	top: -8px;right: -8px;
+	line-height: 16px;
+	text-align: center;
+	font-size:80% ;
+	z-index: 100;
+}
